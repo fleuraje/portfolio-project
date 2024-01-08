@@ -19,8 +19,8 @@ const Sidenav = () => {
       {
         //if our nav state is true then display some information, if it is not true display something else
         nav ? (
-          <div className='fixed w-full h-screen bg-white/90 flex-col justify-center items-center z-20'>
-            <a href="#main" className='w-[75%] flex justify-center'>
+          <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
+            <a href="#main" className='w-[75%] flex justify-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration'>
               <AiOutlineHome size={20} />
               <span className="pl-4"> Home </span>
             </a>
